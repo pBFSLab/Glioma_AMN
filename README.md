@@ -6,6 +6,7 @@ resting-state functional connectivity.
 This repository is being organized into two parts:
 
 1. Real-lesion network mapping from true glioma lesion ROIs.
+
 2. Size-matched null model testing for statistical validation.
 
 The cleaned implementation uses the same ROI-specific t-map, FDR correction
@@ -19,7 +20,6 @@ config/       Example configuration files with local paths and parameters.
 src/matlab/   Reusable MATLAB functions.
 scripts/      Entry-point scripts for running each analysis step.
 docs/         Method notes and input/output descriptions.
-legacy/       Original scripts preserved for traceability.
 ```
 
 ## Real-Lesion Pipeline
