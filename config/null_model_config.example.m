@@ -1,8 +1,5 @@
 function cfg = null_model_config()
 %NULL_MODEL_CONFIG Example configuration for size-matched null model testing.
-%
-% Copy this file to null_model_config.m and update local paths before
-% running scripts/run_03_* through scripts/run_08_*.
 
 % Lesion table used to estimate the size of each real lesion.
 cfg.lesion_table = '/path/to/glioma_core_index_summary.xlsx';

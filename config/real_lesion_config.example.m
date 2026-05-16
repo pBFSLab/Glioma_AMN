@@ -1,9 +1,5 @@
 function cfg = real_lesion_config()
 %REAL_LESION_CONFIG Example configuration for real-lesion network mapping.
-%
-% Copy this file to real_lesion_config.m and update the paths before
-% running scripts/run_01_compute_real_lesion_tmaps.m or
-% scripts/run_02_generate_observed_network.m.
 
 % Input lesion table. The table must contain one row per lesion and voxel
 % indices from lesion_index_start_col to the final column.
