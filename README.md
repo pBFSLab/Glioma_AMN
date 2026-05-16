@@ -1,17 +1,12 @@
 # Glioma Network Mapping
 
-Code accompanying a glioma network mapping analysis based on normative
-resting-state functional connectivity.
+Glioma network mapping analysis based on normative resting-state functional connectivity.
 
 This repository is being organized into two parts:
 
 1. Real-lesion network mapping from true glioma lesion ROIs.
 
 2. Size-matched null model testing for statistical validation.
-
-The cleaned implementation uses the same ROI-specific t-map, FDR correction
-at `q < 0.01`, and `|t| > 5` overlap procedure for both real lesions and
-synthetic null lesions.
 
 ## Repository Layout
 
